@@ -1,0 +1,133 @@
+* {
+  scroll-behavior: smooth; }
+
+html,
+body {
+  height: 100%; }
+
+blockquote {
+  border-color: #2196f3; }
+
+.bb {
+  color: #2196f3; }
+
+footer {
+  padding-top: 40px; }
+
+.b {
+  display: flex; }
+
+.cuadro {
+  width: 54%;
+  margin: auto;
+  opacity: 50%; }
+
+.abajo {
+  margin-top: 18px; }
+
+.arriba {
+  margin-top: -10px;
+  padding-left: 20px; }
+
+.bss {
+  border-style: solid; }
+
+.color-1 {
+  background: #00F260;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #0575E6, #00F260);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #0575E6, #00F260);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.color-2 {
+  background: #00B4DB;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.pushpin {
+  width: 22%; }
+
+.absolute {
+  position: absolute;
+  margin-top: 39em; }
+
+.margin-1 {
+  margin-top: 50px; }
+
+.margin-5 {
+  margin-top: 33px; }
+
+.padding-left-1 {
+  margin-left: 10px; }
+
+.arriba-1 {
+  margin-top: -10px; }
+
+.bold {
+  font-weight: bold; }
+
+.border-right {
+  border-right: solid; }
+
+.margin-2 {
+  margin-top: 10px; }
+
+.poa,
+.poa-2 {
+  position: absolute; }
+
+.po3 {
+  padding-top: -10em; }
+
+.poa-2 {
+  top: 0; }
+
+.margin-3 {
+  margin-top: -1px; }
+
+.mr {
+  margin-right: -10em; }
+
+.margin-4 {
+  margin-top: -40em; }
+
+.keyframe {
+  animation-name: flotando;
+  animation-duration: 5s;
+  animation-iteration-count: infinite; }
+
+.background {
+  background: url(../image/wave-2.svg) no-repeat;
+  background-position: bottom; }
+
+.background-2 {
+  background: url(../image/wave-3.svg) no-repeat;
+  background-position: top; }
+
+.p {
+  padding: 25px;
+  border-radius: 15px; }
+
+@keyframes flotando {
+  0% {
+    margin-top: -5px; }
+  50% {
+    margin-top: -55px; }
+  100% {
+    margin-top: -5px; } }
+@media only screen and (max-width: 993px) {
+  .espacio-1 {
+    display: none; }
+
+  .border-right {
+    border-right: solid;
+    border-color: #eeeeee; }
+
+  .keyframe {
+    animation-duration: 0s; } }
+
+/*# sourceMappingURL=style.css.map */
